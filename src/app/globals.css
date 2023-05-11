@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Audiowide';
+  src: url("../../public/fonts/Audiowide-Regular.ttf");
+}
+@font-face {
+  font-family: 'Fira Code';
+  src: url("../../public/fonts/FiraCode-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: 'Monoton';
+  src: url("../../public/fonts/Monoton-Regular.ttf");
+}
+@font-face {
+  font-family: 'Caveat';
+  src: url("../../public/fonts/Caveat-VariableFont_wght.ttf");
+}
+
+
+/* :root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+} */
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+} */
+
+/* body {
+  color: #0E131B;
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+} */
