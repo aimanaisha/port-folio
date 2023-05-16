@@ -1,7 +1,8 @@
-import './globals.css'
+import "./globals.css";
 import Nav from "../../components/navbar";
-import Github from '../../public/assets/git.png';
-import Image from 'next/image'
+import Github from "../../public/assets/git.png";
+import bg from "../../public/assets/bg.png";
+import Image from "next/image";
 
 // export const metadata = {
 //   title: 'Create Next App',
@@ -11,28 +12,20 @@ import Image from 'next/image'
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en">
-      <body className='bg-[#0E131B] flex h-full'>
-      <Nav/>
+      <body className="bg-[#0E131B] flex h-full">
+      <Image src={bg} alt="" className="fixed top-0 right-0 opacity-40" width={650}/>
+      <Image src={bg} alt="" className="fixed left-20 bottom-0 -z-10 opacity-40" width={650}/>
 
+        <Nav />
         {children}
-        <div className='mt-auto pr-20'>
-        <Image
-      src={Github}
-      // width={500}
-      // height={100}
-      alt="Picture of the author"
-    />
+        <div className="mt-auto pr-20">
+          <Image src={Github} alt="" />
         </div>
-        
-        {/* <Github/> */}
-
-       
-        
-        </body>
+      </body>
     </html>
-  )
+  );
 }

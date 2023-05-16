@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <main>
+    <main className="w-full">
       <div className="ml-56 w-3/5 flex flex-col mt-[10rem]">
         <div className="flex flex-col">
           <span className="text-[#35445A] font-caveat text-3xl">
@@ -25,10 +25,7 @@ export default function Home() {
             music and food. Hey, my name is Aiman Aisha.
             I’m a graphic designer, UX/UI designer & front-end web developer
             from India. I’m also passionate about music and food. I’m always
-            curious to learn more when it comes to new technologies and creative
-            coding.& front-end web developer from India. I’m also passionate about
-            music and food. Hey, my name is Aiman Aisha.
-            I’m a graphic designer, UX/UI designer & front-end web developer
+            curious to -end web developer
             from India. I’m also passionate about music and food. I’m always
             curious to learn more when it comes to new technologies and creative
             coding.
