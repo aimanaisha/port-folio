@@ -1,6 +1,7 @@
 import './globals.css'
 import Nav from "../../components/navbar";
-import Github from '../../components/github';
+import Github from '../../public/assets/git.png';
+import Image from 'next/image'
 
 // export const metadata = {
 //   title: 'Create Next App',
@@ -18,6 +19,15 @@ export default function RootLayout({
       <Nav/>
 
         {children}
+        <div className='mt-auto pr-20'>
+        <Image
+      src={Github}
+      // width={500}
+      // height={100}
+      alt="Picture of the author"
+    />
+        </div>
+        
         {/* <Github/> */}
 
        

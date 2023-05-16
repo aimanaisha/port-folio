@@ -10,9 +10,15 @@ const Nav = () => {
             <div className="border-b-2 border-[#444242] h-24 flex items-center justify-center">
                 <Link href="/about">&#60;About/&#62;</Link>
             </div>
-            <div className="border-b-2 border-[#444242] h-24 flex items-center justify-center">&#60;Skills/&#62;</div>
-            <div className="border-b-2 border-[#444242] h-24 flex items-center justify-center">&#60;Projects/&#62;</div>
-            <div className="border-b-2 border-[#444242] h-24 flex items-center justify-center">&#60;Contact/&#62;</div>
+            <div className="border-b-2 border-[#444242] h-24 flex items-center justify-center">
+                &#60;Skills/&#62;
+                </div>
+            <div className="border-b-2 border-[#444242] h-24 flex items-center justify-center">
+                <Link href="/projects">&#60;Projects/&#62;</Link>
+            </div>
+            <div className="border-b-2 border-[#444242] h-24 flex items-center justify-center">
+                <Link href="/contact">&#60;Contact/&#62;</Link>
+            </div>
         </div>
     </div> );
 }

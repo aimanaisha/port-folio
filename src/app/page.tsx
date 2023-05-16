@@ -6,12 +6,12 @@ export default function Home() {
 
 
   return (
-    <main className="">
+    <div className="w-full">
       
       <div className="font-audiowide h-full justify-center ml-10 flex flex-col">
-        <span className="align-end text-[#35445A] font-caveat text-3xl">
+        span className="align-end text-[#35445A] font-caveat text-3xl">
           &#60;div&#62;
-        </span>
+        </span><
 
         <div className="leading-none flex flex-col w-fit ml-10">
           <span className="align-end text-[#35445A] font-caveat text-3xl">
@@ -66,6 +66,6 @@ export default function Home() {
           &#60;/div&#62;
         </span>
       </div>
-    </main>
+    </div>
   );
 }
