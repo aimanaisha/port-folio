@@ -77,37 +77,5 @@ export default function Projects() {
     </div>
   )
 
-//   return (
-//     <main className="">
-//       <div className="left-column">
-//         <ul ref={listRef} className="nav-list">
-//           {data.map((each) => {
-//             return (
-//               <li key={each.id} data-index={each.id}>
-//                 <a href="#" title="The Studio">
-//                   {each.name}
-//                 </a>
-//               </li>
-//             );
-//           })}
-//         </ul>
-//       </div>
 
-//       <div className="right-column menu-img" ref={imgRef}>
-//         {data.map((each) => {
-//           return (
-//             <Image
-//               key={each.id}
-//               width={500}
-//               height={500}
-//               className="fade"
-//               src={each.src}
-//               style={{objectFit: "cover"}}
-//               alt=""
-//             />
-//           );
-//         })}
-//       </div>
-//     </main>
-//   );
 }

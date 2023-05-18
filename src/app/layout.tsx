@@ -5,7 +5,7 @@ import Nav from "../../components/navbar";
 import Github from "../../public/assets/git.png";
 import bg from "../../public/assets/bg.png";
 import Image from "next/image";
-
+import Cursor from "../../components/Cursor";
 
 
 // export const metadata = {
@@ -21,6 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="bg-[#0E131B] flex h-full">
+        <Cursor/>
       <div className="bg-svg-wrap">
         <div className="bg-svg"></div>
       </div>
