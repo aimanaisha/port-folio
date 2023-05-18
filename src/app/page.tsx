@@ -1,3 +1,4 @@
+import Name from '../../components/Name'
 
 export default function Home() {
 
@@ -25,13 +26,10 @@ export default function Home() {
           <span className="align-end text-[#35445A] font-caveat text-3xl">
             &#60;h1&#62;
           </span>
-          <h1 className="text-[10rem] text-[#B8B6B6] ml-10">
-            I AM
-            <span id="my-div" className="text-[#621AD7] h-20 w-20 font-monoton text-[9rem]">
-              AIMAN
-            </span> 
+          {/* <h1 className="text-[10rem] text-[#B8B6B6] ml-10">
+            I AM <span className="text-[#621AD7] h-50 w-50 font-monoton text-[9rem]"><Name/></span> 
             
-          </h1>
+          </h1> */} <Name/>
           <span className="self-end text-[#35445A] font-caveat text-3xl relative left-10">
             &#60;/h1&#62;
           </span>
