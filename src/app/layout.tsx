@@ -1,8 +1,12 @@
+/** @format */
+
 import "./globals.css";
 import Nav from "../../components/navbar";
 import Github from "../../public/assets/git.png";
 import bg from "../../public/assets/bg.png";
 import Image from "next/image";
+
+
 
 // export const metadata = {
 //   title: 'Create Next App',
@@ -17,8 +21,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="bg-[#0E131B] flex h-full">
-      <Image src={bg} alt="" className="fixed top-0 right-0 opacity-40" width={650}/>
-      <Image src={bg} alt="" className="fixed left-20 bottom-0 -z-10 opacity-40" width={650}/>
+      <div className="bg-svg-wrap">
+        <div className="bg-svg"></div>
+      </div>
+      <Image src={bg} alt="" className="fixed top-0 right-0 -z-10 opacity-30" width={650}/>
+      <Image src={bg} alt="" className="fixed left-20 bottom-0 -z-10 opacity-30" width={650}/>
 
         <Nav />
         {children}

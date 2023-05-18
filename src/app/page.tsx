@@ -1,6 +1,4 @@
 
-
-
 export default function Home() {
 
 
@@ -28,11 +26,11 @@ export default function Home() {
             &#60;h1&#62;
           </span>
           <h1 className="text-[10rem] text-[#B8B6B6] ml-10">
-            I AM{" "}
+            I AM
             <span id="my-div" className="text-[#621AD7] h-20 w-20 font-monoton text-[9rem]">
               AIMAN
-            </span>
-            .
+            </span> 
+            
           </h1>
           <span className="self-end text-[#35445A] font-caveat text-3xl relative left-10">
             &#60;/h1&#62;
