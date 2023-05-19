@@ -5,6 +5,8 @@ import Image from "next/image";
 import data from './projects.json'
 import './projects.css'
 import 'animate.css'
+import TypedText from "./typed";
+
 
 export default function Projects() {
   
@@ -67,9 +69,9 @@ export default function Projects() {
         <div ref={listRef} className=" w-[500px]">
             {data.map((item) => {
                 return(
-                     <div cursor-pointer data-index={item.id} key={item.id} className="border-t text-lg border-[#621AD7] transition-all duration-300 text-[#621AD7] hover:text-[#0A0E13] flex justify-between font-fira py-8 px-5 hover:bg-[#621AD7]">
-                        <p className="text-[#F5F5F5]">{item.no}. {item.name} //</p>
-                        <p className="">{item.type}</p>
+                     <div cursor-pointer data-index={item.id} key={item.id} className="circle border-t text-lg border-[#621AD7]  text-[#621AD7] hover:text-[#0A0E13] flex justify-between font-fira py-8 px-5 a">
+                        <p className="text-[#F5F5F5]">//{item.no}. <TypedText typeSpeed={70} showCursor={false}  strings={item.name}/> </p>
+                        <p className="animate__fadeIn animate__animated">{item.type}</p>
                      </div>
                 )
             })}

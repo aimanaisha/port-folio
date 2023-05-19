@@ -2,6 +2,7 @@ import TypedText from "../../../components/typed"
 import 'animate.css'
 
 const Home = () => {
+    const strings = 'sudo echo $THINGS_I_KNOW'
     return(
         <main className="h-screen w-full font-fira flex justify-center items-center">
             <div className=" w-[780px] h-[450px] bg-[rgb(20,27,49,0.7)] rounded-lg border border-[#2E2F30]">
@@ -14,8 +15,8 @@ const Home = () => {
                     <h1 className="mx-auto text-[#9207FF]">a!man@portfolio:~</h1>               
                 </div>
                 <div className="m-7 text-2xl text-[#B8B6B6]">
-                    <h1><span className="text-[#61D02D]">a!man@portfolio:~$ </span> <TypedText/> </h1>
-                    <div className="mt-5 animate__fadeIn animate__animated animate__delay-2s animate__faster">
+                    <h1><span className="text-[#61D02D]">a!man@portfolio:~$ </span> <TypedText typeSpeed={50} strings={strings} showCursor={true} /> </h1>
+                    <div className="mt-5 animate__fadeIn animate__animated animate__delay-2s animate__fast">
                         <ul>
                             <li>&#62; HTML</li>
                             <li>&#62; CSS</li>

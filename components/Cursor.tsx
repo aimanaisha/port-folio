@@ -1,7 +1,7 @@
 "use client";
 import { useEffect } from "react";
 import  magicMouse from 'magicmouse.js'
-
+import './magicmouse.css'
 
 
 const Cursor = () => {

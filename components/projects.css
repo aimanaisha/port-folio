@@ -1,16 +1,8 @@
-/* .menu-img  {
 
-    position: relative;
-    width: 500px;
-    height: 500px
-  } */
   .menu-img img {
-  
     opacity: 0;
-    /* max-width: none; */
     position: absolute;
-    left: 32.9%;
-    
+    left: 32.9%;   
     top: 50%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);

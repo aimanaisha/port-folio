@@ -6,7 +6,7 @@ import Github from "../../public/assets/git.png";
 import bg from "../../public/assets/bg.png";
 import Image from "next/image";
 import Cursor from "../../components/Cursor";
-
+import '../../components/magicmouse.css'
 
 export const metadata = {
   title: 'Hello World!',
@@ -20,8 +20,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="bg-[#0E131B] flex h-full">
-        <Cursor/>
+      <body className="overflow-hidden bg-[#0E131B] flex h-full">
+        <Cursor />
       <div className="bg-svg-wrap">
         <div className="bg-svg"></div>
       </div>

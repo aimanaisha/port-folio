@@ -1,15 +1,22 @@
 "use client";
-import { useEffect, useRef } from "react"
+import React, { useEffect, useRef } from "react"
 import Typed from 'typed.js';
 
-export default function TypedText() {
-  
+interface TypedTextProps {
+  strings: string;
+  typeSpeed: number;
+  showCursor: boolean
+}
+
+const TypedText: React.FC<TypedTextProps> = ({ strings, typeSpeed, showCursor}) => {
+  const a = 'hello'
   const ref = useRef(null);
 
   useEffect(() => {
     const typed = new Typed(ref.current, {
-      strings: ['sudo echo $THINGS_I_KNOW'],
-      typeSpeed: 50,
+      strings: [strings],
+      typeSpeed: typeSpeed,
+      showCursor: showCursor
     });
 
     return () => {
@@ -23,3 +30,4 @@ export default function TypedText() {
     
   );
 }
+export default TypedText
