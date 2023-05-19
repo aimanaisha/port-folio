@@ -2,35 +2,35 @@
 [
     {
         "id": "0",
-        "no":"01",
+        "no":"00",
         "name": "Cherry",
         "type": "Social Media App",
         "src": "/assets/ss.png"
     },
     {
         "id": "1",
-        "no":"02",
+        "no":"01",
         "name": "Ten Days of Code",
         "type": "Event Website",
         "src": "/assets/tdoc.png"
     },
     {
         "id": "2",
-        "no":"03",
+        "no":"02",
         "name": "Digital Fortress",
         "type": "Quiz App",
         "src": "/assets/aar.png"
     },
     {
         "id": "3",
-        "no":"04",
+        "no":"03",
         "name": "Aarohan",
         "type": "Fest Website",
         "src": "/assets/aar.png"
     },
     {
         "id": "4",
-        "no":"05",
+        "no":"04",
         "name": "Music Player",
         "type": "Web App",
         "src": "/assets/music.jpeg"
