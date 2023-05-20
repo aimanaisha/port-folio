@@ -1,5 +1,6 @@
 import './page.css'
 import 'animate.css'
+import Link from 'next/link';
 
 const Contact = () => {
   return (
@@ -9,9 +10,10 @@ const Contact = () => {
         <span className="text-[#35445A] font-caveat text-3xl">
           &#60;h1&#62;
         </span>
-        <h1 className="animate__animated animate__fadeIn text-7xl text-[#7C86A3] font-audiowide leading-relaxed">
-          LET'S BUILD SOMETHING
-          <br /> <span className="text-[#B8B6B6]">GREAT</span> TOGETHER :)
+        <h1 className=" text-7xl text-[#7C86A3] font-audiowide leading-relaxed">
+          <span className='animate__animated animate__fadeIn'>LET'S BUILD SOMETHING</span>
+          <br /> <span className="animate__pulse animate__infinite	infinite animate__animated animate__slower text-[#B8B6B6]">GREAT </span>
+          <span className='animate__animated animate__fadeIn'>TOGETHER :) </span>
         </h1>
         <span className="text-[#35445A] font-caveat text-3xl">
           &#60;/h1&#62;
@@ -23,24 +25,24 @@ const Contact = () => {
         
           <div className="circle animate__pulse animate__infinite	infinite animate__animated animate__slower border-4 mx-10 h-40 w-40 border-[#621AD7] rounded-full flex justify-center flex-col items-center hover:text-[#0A0E13] ">
             <h4> &#60; &#62; </h4>
-            <h4> Instagram </h4>
+            <Link href="https://www.instagram.com/aimanaisha/" target='_blank'><h4> Instagram </h4></Link>
             <h4> &#60;/&#62; </h4>
           </div>
           <div className="circle animate__pulse animate__infinite	infinite animate__animated animate__slower border-4 mx-10 mt-32 h-32 w-32 border-[#621AD7] rounded-full flex justify-center flex-col items-center hover:text-[#0A0E13] ">
      
-            <h4> &#60; &#62; </h4>
-            <h4> Facebook </h4>
+            <h4> &#60; &#62; </h4> 
+            <Link href="https://discordapp.com/users/Fireheart#4717" target='_blank'><h4>Discord</h4></Link>
             <h4> &#60;/&#62;</h4>
           </div>        
           <div className="circle animate__pulse animate__infinite	infinite animate__animated animate__slower border-4 mx-10 h-40 w-40 border-[#621AD7] rounded-full flex justify-center flex-col items-center hover:text-[#0A0E13] ">
 
             <h4> &#60; &#62;</h4>
-            <h4> LinkedIn </h4>
+            <Link href="https://www.linkedin.com/in/aiman-aisha-84a932220/" target='_blank'> <h4> LinkedIn </h4></Link>
             <h4> &#60;/&#62; </h4>
           </div>
           <div className="circle animate__pulse animate__infinite	infinite animate__animated animate__slower border-4 mx-10 mt-32 h-32 w-32 border-[#621AD7] rounded-full flex justify-center flex-col items-center hover:text-[#0A0E13] ">
             <h4> &#60; &#62;</h4>
-            <h4> Gmail </h4>
+            <Link href="mailto:aimanaisha851@gmail.com" target='_blank'> <h4> Gmail </h4></Link>
             <h4> &#60;/&#62;</h4>
           
         </div>
