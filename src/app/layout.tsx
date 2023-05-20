@@ -28,7 +28,7 @@ export default function RootLayout({
       <Image src={bg} alt="" className="fixed top-0 right-0 -z-10 opacity-50" width={650}/>
       <Image src={bg} alt="" className="fixed left-20 bottom-0 -z-10 opacity-50" width={650}/>
 
-        <Nav />
+        <Nav/>
         {children}
         <div className="mt-auto pr-20">
           

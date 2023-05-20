@@ -69,7 +69,7 @@ export default function Projects() {
         <div ref={listRef} className=" w-[500px]">
             {data.map((item) => {
                 return(
-                     <div cursor-pointer data-index={item.id} key={item.id} className="circle border-t text-lg border-[#621AD7]  text-[#621AD7] hover:text-[#0A0E13] flex justify-between font-fira py-8 px-5 a">
+                     <div data-index={item.id} key={item.id} className="fill border-t text-lg border-[#621AD7] text-[#621AD7] hover:text-[#0A0E13] flex justify-between font-fira py-8 px-5 a">
                         <p className="text-[#F5F5F5]">//{item.no}. <TypedText typeSpeed={70} showCursor={false}  strings={item.name}/> </p>
                         <p className="animate__fadeIn animate__animated">{item.type}</p>
                      </div>

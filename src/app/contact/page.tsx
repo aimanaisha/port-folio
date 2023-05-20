@@ -10,9 +10,9 @@ const Contact = () => {
         <span className="text-[#35445A] font-caveat text-3xl">
           &#60;h1&#62;
         </span>
-        <h1 className=" text-7xl text-[#7C86A3] font-audiowide leading-relaxed">
+        <h1 className=" text-7xl text-[#7C86A3] font-audiowide leading-relaxed ">
           <span className='animate__animated animate__fadeIn'>LET'S BUILD SOMETHING</span>
-          <br /> <span className="animate__pulse animate__infinite	infinite animate__animated animate__slower text-[#B8B6B6]">GREAT </span>
+          <br /> <span className="animate__fadeInLeft animate__animated text-[#B8B6B6]">GREAT </span>
           <span className='animate__animated animate__fadeIn'>TOGETHER :) </span>
         </h1>
         <span className="text-[#35445A] font-caveat text-3xl">
@@ -53,7 +53,7 @@ const Contact = () => {
       <span className="text-[#35445A] font-caveat text-3xl">
           &#60;footer&#62;
         </span>
-        <p className="mx-10 text-[#621AD7] text-2xl">Made with &#60;3 by Aiman</p>
+        <p className="animate__fadeInUp animate__animated mx-10 text-[#621AD7] text-2xl">Made with &#60;3 by Aiman</p>
         <span className="text-[#35445A] font-caveat text-3xl">
           &#60;/footer&#62;
         </span>

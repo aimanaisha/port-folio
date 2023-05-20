@@ -3,8 +3,8 @@
     {
         "id": "0",
         "no":"00",
-        "name": "Cherry",
-        "type": "Social Media App",
+        "name": "Social Media App",
+        "type": "CRUD App",
         "src": "/assets/ss.png"
     },
     {

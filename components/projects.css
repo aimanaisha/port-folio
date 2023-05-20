@@ -8,3 +8,26 @@
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);   
   }
+  .fill {
+    background-size: 200% 200%;
+    background-image: 
+    linear-gradient(to top, #621AD7 50%, transparent 50%);
+    -webkit-transition: background-position 400ms, color 400ms ease, border-color 400ms ease;
+    -moz-transition: background-position 400ms, color 400ms ease, border-color 400ms ease;
+    -ms-transition: background-position 400ms, color 400ms ease, border-color 400ms ease;
+    -o-transition: background-position 400ms, color 400ms ease, border-color 400ms ease;
+    transition: background-position 400ms, color 400ms ease, border-color 400ms ease;
+    
+    }
+    
+    .fill:hover {
+    border-color: #621AD7;
+    background-image: 
+    linear-gradient(to top, #621AD7 51%, transparent 50%);
+    background-position: 0 100%;
+    -webkit-transition: background-position 400ms, color 400ms ease, border-color 400ms ease;
+    -moz-transition: background-position 400ms, color 400ms ease, border-color 400ms ease;
+    -ms-transition: background-position 400ms, color 400ms ease, border-color 400ms ease;
+    -o-transition: background-position 400ms, color 400ms ease, border-color 400ms ease;
+    transition: background-position 400ms, color 400ms ease, border-color 400ms ease;
+    }
