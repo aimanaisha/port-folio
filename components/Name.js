@@ -12,10 +12,9 @@ const Name = () => {
                 type: "delayed",
                 pathTimingFunction: Vivus.EASE,
                 file: '/assets/aiman.svg',
-                // loop: true
             }, () => {
               setTimeout(() => {
-                myVivus.reset().play(); // Delayed reset and replay of the animation
+                myVivus.reset().play();
               }, 100);
             });        
             myVivus.play();
@@ -27,8 +26,8 @@ const Name = () => {
     }
 
     return(
-      <h1 className="animate__fadeIn animate__animated text-[10rem] text-[#B8B6B6] ml-10">
-      I AM <span id="svg" className="inline-block w-[33rem]"></span> 
+      <h1 className="animate__fadeIn animate__animated text-[4rem] sm:text-[5rem] md:text-[10rem] text-[#B8B6B6] ml-5 md:ml-10">
+      I AM <span id="svg" className="inline-block w-[15rem] md:w-[33rem]"></span> 
       
 
       

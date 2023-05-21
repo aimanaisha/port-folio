@@ -17,6 +17,7 @@ module.exports = {
         monoton: ['Monoton'],
         fira: ['Fira Code'],
         caveat: ['Caveat'],
+        press: ['Press Start 2P']
         
       },
     },

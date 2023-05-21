@@ -1,5 +1,5 @@
 import Name from '../../components/Name'
-import 'animate.css'
+
 export default function Home() {
 
 
@@ -16,7 +16,7 @@ export default function Home() {
           <span className="align-end text-[#35445A] font-caveat text-3xl">
             &#60;h2&#62;
           </span>
-          <h1 className="animate__fadeIn animate__animated text-[5rem] text-[#7C86A3] ml-10">HELLO!</h1>
+          <h1 className="text-[5rem] text-[#7C86A3] ml-10">HELLO!</h1>
           <span className=" self-end text-[#35445A] font-caveat text-3xl relative left-10">
             &#60;/h2&#62;
           </span>
@@ -39,7 +39,7 @@ export default function Home() {
           <span className="align-end text-[#35445A] font-caveat text-3xl">
             &#60;h2&#62;
           </span>
-          <h2 className="animate__fadeIn animate__animated text-[6rem] text-[#B8B6B6] ml-10">
+          <h2 className="text-[6rem] text-[#B8B6B6] ml-10">
             I LIKE TO CREATE
           </h2>
           <span className="self-end text-[#35445A] font-caveat text-3xl relative left-10">
@@ -51,7 +51,7 @@ export default function Home() {
           <span className="align-end text-[#35445A] font-caveat text-3xl">
             &#60;h3&#62;
           </span>
-          <h1 className="animate__fadeIn animate__animated text-[3rem] text-[#7C86A3] ml-10">
+          <h1 className="text-[3rem] text-[#7C86A3] ml-10">
             THINGS FOR THE WEB.
           </h1>
           <span className="self-end text-[#35445A] font-caveat text-3xl relative left-10">

@@ -25,6 +25,7 @@
     "react-dom": "18.2.0",
     "react-use-downloader": "^1.2.4",
     "react-vivus": "^0.0.2",
+    "scss": "^0.2.4",
     "tailwindcss": "3.3.2",
     "typed.js": "^2.0.16",
     "typescript": "5.0.4",
@@ -32,6 +33,7 @@
     "vivus-next": "^0.4.2"
   },
   "devDependencies": {
-    "@types/vivus": "^0.4.4"
+    "@types/vivus": "^0.4.4",
+    "sass": "^1.62.1"
   }
 }

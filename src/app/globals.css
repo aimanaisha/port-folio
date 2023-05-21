@@ -19,6 +19,10 @@
   font-family: 'Caveat';
   src: url("../../public/fonts/Caveat-VariableFont_wght.ttf");
 }
+@font-face {
+  font-family: 'Press Start 2P';
+  src: url("../../public/fonts/PressStart2P-Regular.ttf");
+}
 
 
 .bg-svg {
