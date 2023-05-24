@@ -31,7 +31,7 @@ export default function Projects() {
   }, []);
 
   return (
-    <div className="w-full h-screen flex flex-col md:flex-row items-center justify-center">
+    <div className="w-full h-screen flex flex-col md:flex-row items-center justify-center pb-10 md:pb-0">
       <div className=" md:mr-32 hidden md:block">
         <span className="self-end text-[#35445A] font-caveat text-sm md:text-3xl">
           &#60;img&#62;

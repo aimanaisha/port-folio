@@ -1,10 +1,16 @@
 import Name from "../../components/Name";
 import "animate.css";
+import bg from "../../public/assets/bg.png";
+import Image from "next/image";
+
 export default function Home() {
   return (
     <div className="w-full flex flex-col h-screen">
-      <div className="font-audiowide leading-none md:leading-normal h-full justify-center md:ml-10 flex flex-col">
-        <span className="align-end text-[#35445A] font-caveat text-sm md:text-3xl">
+      <Image src={bg} alt="" className="md:hidden fixed top-0 right-0 -z-10 opacity-30 w-[650px]" width={650}/>
+      <Image src={bg} alt="" className="fixed md:hidden left-20 bottom-0 -z-10 opacity-30" width={650}/>
+
+      <div className="font-audiowide leading-snug md:leading-normal h-full justify-center md:ml-10 flex flex-col">
+        <span className="align-end text-[#35445A] font-caveat text-lg md:text-3xl">
           &#60;div&#62;
         </span>
         <div className="md:leading-none flex flex-col w-fit md:ml-10 ">
@@ -54,7 +60,7 @@ export default function Home() {
           </div>
         </div>
 
-        <span className="align-end text-[#35445A] font-caveat text-sm md:text-3xl relative">
+        <span className="align-end text-[#35445A] font-caveat text-lg md:text-3xl relative">
           &#60;/div&#62;
         </span>
       </div>

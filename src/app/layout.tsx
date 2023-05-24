@@ -1,5 +1,5 @@
 /** @format */
-
+import MobileNav from '../../components/MobileNav'
 import "./globals.css";
 import Nav from "../../components/navbar";
 import Github from "../../public/assets/git.png";
@@ -20,8 +20,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="overflow-hidden bg-[#0E131B] flex h-full">
+      <body className="overflow-hidden bg-[#0E131B] flex h-full ">
         <Cursor />
+        
+        <MobileNav/>
       <div className="bg-svg-wrap">
         <div className="bg-svg"></div>
       </div>

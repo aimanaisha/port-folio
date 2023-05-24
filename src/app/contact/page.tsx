@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Contact = () => {
   return (
-    <div className="w-full flex h-screen flex-col justify-center md:justify-between md:pt-20 md:pl-20 md:pb-4">
+    <div className="w-full flex h-screen flex-col justify-center md:justify-between md:pt-20 md:pl-20 md:pb-4 pb-10">
       <div>
         <div className="md:ml-10 ">
           <span className="text-[#35445A] font-caveat ml-5 md:ml-0 text-xs md:text-3xl">
