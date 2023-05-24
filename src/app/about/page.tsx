@@ -3,7 +3,7 @@ import Download from "../../../components/Download";
 
 export default function Home() {
   return (
-    <main className="w-full h-screen flex flex-col  md:justify-between">
+    <main className="w-full h-screen flex flex-col justify-center md:justify-between">
       <div className="md:ml-56 md:w-3/5 flex flex-col md:mt-[10rem]">
         <div className="flex flex-col">
           <span className="text-[#35445A] font-caveat ml-5 md:ml-0 text-xs md:text-3xl">
