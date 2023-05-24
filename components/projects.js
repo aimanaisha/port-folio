@@ -10,7 +10,7 @@ import TypedText from "./typed";
 export default function Projects() {
   const imgRef = useRef(null);
   const listRef = useRef(null);
-
+  const str="//"
   useEffect(() => {
     const handleEvent = () => {
       let navList = listRef.current.children;
@@ -58,32 +58,7 @@ export default function Projects() {
           &#60;/img&#62;
         </span>
       </div>
-      {/* <div className=" md:mr-32 bg-pink-200 md:hidden w-[200px] h-[200px] ">
-        <span className="self-end text-[#35445A] font-caveat text-sm md:text-3xl">
-          &#60;img&#62;
-        </span>
-        <div
-          ref={imgRef}
-          className="menu-img md:w-[400px] md:h-[400px] opacity-80 rounded hover:opacity-100 transition relative "
-        >
-          {data.map((img) => {
-            return (
-              <Image
-                className="transition rounded"
-                key={img.id}
-                width={200} 
-                height={200}
-                src={img.src}
-                style={{ objectFit: "cover" }}
-                alt=""
-              />
-            );
-          })}
-        </div>
-        <span className="self-end text-[#35445A] font-caveat text-sm md:text-3xl">
-          &#60;/img&#62;
-        </span>
-      </div> */}
+      
 
       <div className="border-2 md:border-4 bg-[#0A0E13] w-[95%] md:w-fit border-[#621AD7] flex flex-col items-center">
         <div className="flex flex-col py-4 md:py-8">
@@ -106,7 +81,7 @@ export default function Projects() {
                 key={item.id}
                 className="fill border-t text-sm md:text-lg border-[#621AD7] text-[#621AD7] hover:text-[#0A0E13] flex justify-between font-fira px-2 py-6 md:py-8 md:px-5 a">
                 <p className="text-[#F5F5F5]">
-                  //{item.no}.{" "}
+                  {str}{item.no}.{" "}
                   <TypedText
                     typeSpeed={70}
                     showCursor={false}

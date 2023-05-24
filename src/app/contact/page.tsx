@@ -12,7 +12,7 @@ const Contact = () => {
           </span>
           <h1 className="text-4xl md:text-7xl text-[#7C86A3] font-audiowide leading-relaxed text-center md:text-left">
             <span className="animate__animated animate__fadeIn">
-              LET'S BUILD SOMETHING
+              LET&#39;S BUILD SOMETHING
             </span>
             <br />{" "}
             <span className="animate__fadeInLeft animate__animated text-[#B8B6B6]">
