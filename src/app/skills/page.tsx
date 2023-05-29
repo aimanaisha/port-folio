@@ -8,7 +8,7 @@ const Home = () => {
     <main className="h-screen w-full font-fira flex justify-center items-center">
       <div className=" md:w-[780px] md:h-[450px] w-full h-full md:bg-[rgb(20,27,49,0.7)] bg-[rgb(20,27,49,0.5)] rounded-lg border border-[#2E2F30]">
         <div className="rounded-t-lg  w-full h-12 md:h-10 bg-[#06080F] flex items-center">
-          <div className="flex ml-2 hidden md:block">
+          <div className="ml-2 hidden md:flex">
             <div className="h-3 w-3 md:h-5 md:w-5 mx-1 rounded-full bg-[#9207FF]"></div>
             <div className="h-3 w-3 md:h-5 md:w-5 mx-1 rounded-full bg-[#B8B6B6]"></div>
             <div className="h-3 w-3 md:h-5 md:w-5 mx-1 rounded-full bg-[#61D02D]"></div>

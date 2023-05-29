@@ -4,13 +4,13 @@ import Link from "next/link";
 
 const Contact = () => {
   return (
-    <div className="w-full flex h-screen flex-col justify-center md:justify-between md:pt-20 md:pl-20 md:pb-4 pb-10">
+    <div className="w-full flex h-screen flex-col justify-center md:justify-between md:pt-24 md:pl-20 md:pb-4 pb-10">
       <div>
         <div className="md:ml-10 ">
           <span className="text-[#35445A] font-caveat ml-5 md:ml-0 text-xs md:text-3xl">
             &#60;h1&#62;
           </span>
-          <h1 className="text-4xl md:text-7xl text-[#7C86A3] font-audiowide leading-relaxed text-center md:text-left">
+          <h1 className="text-4xl md:text-7xl text-[#7C86A3] font-audiowide leading-relaxed md:leading-relaxed text-center md:text-left">
             <span className="animate__animated animate__fadeIn">
               LET&#39;S BUILD SOMETHING
             </span>
