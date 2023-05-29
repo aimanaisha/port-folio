@@ -1,12 +1,8 @@
-"use client"
-import { useEffect } from 'react';
 import TypedText from "../../../components/typed";
 import "animate.css";
-import Link from "next/link";
-import './page.css'
+import "./page.css";
 
 const Home = () => {
-    
   const strings = "sudo echo $THINGS_I_KNOW";
   return (
     <main className="h-screen w-full font-fira flex justify-center items-center">
@@ -20,7 +16,6 @@ const Home = () => {
           <h1 className="mx-auto text-sm md:text-base text-[#9207FF]">
             a!man@portfolio:~
           </h1>
-          
         </div>
         <div className="m-5 md:m-7 text-lg md:text-2xl text-[#B8B6B6]">
           <h1>
@@ -38,14 +33,13 @@ const Home = () => {
               <li>&#62; Photoshop & Illustrator</li>
             </ul>
           </div>
-                  <div className="flex justify-center md:hidden absolute top-[90%]">
+          <div className="flex justify-center md:hidden absolute top-[90%]">
             <div className="h-5 w-5 mx-1 rounded-full bg-[#9207FF]"></div>
             <div className="h-5 w-5 mx-1 rounded-full bg-[#B8B6B6]"></div>
             <div className="h-5 w-5 mx-1 rounded-full bg-[#61D02D]"></div>
           </div>
         </div>
       </div>
-
     </main>
   );
 };

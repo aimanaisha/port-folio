@@ -6,6 +6,7 @@ import './magicmouse.css'
 
 const Cursor = () => {
     useEffect(() => {
+        if (typeof window !== "undefined"){
             magicMouse(
                 {
                     "cursorOuter": "circle-basic",
@@ -16,6 +17,8 @@ const Cursor = () => {
                     "outerHeight": 30
                       }
             );
+        }
+            
     }, []);
     return(
         <></>

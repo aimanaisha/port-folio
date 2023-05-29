@@ -6,8 +6,18 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="w-full flex flex-col h-screen">
-      <Image src={bg} alt="" className="md:hidden fixed top-0 right-0 -z-10 opacity-30 w-[650px]" width={650}/>
-      <Image src={bg} alt="" className="fixed md:hidden left-20 bottom-0 -z-10 opacity-30" width={650}/>
+      <Image
+        src={bg}
+        alt=""
+        className="md:hidden fixed top-0 right-0 -z-10 opacity-30 w-[650px]"
+        width={650}
+      />
+      <Image
+        src={bg}
+        alt=""
+        className="fixed md:hidden left-20 bottom-0 -z-10 opacity-30"
+        width={650}
+      />
 
       <div className="font-audiowide leading-snug md:leading-normal h-full justify-center md:ml-10 flex flex-col">
         <span className="align-end text-[#35445A] font-caveat text-lg md:text-3xl">

@@ -1,22 +1,26 @@
 "use client";
-import React, { useEffect, useRef } from "react"
-import Typed from 'typed.js';
+import React, { useEffect, useRef } from "react";
+import Typed from "typed.js";
 
 interface TypedTextProps {
   strings: string;
   typeSpeed: number;
-  showCursor: boolean
+  showCursor: boolean;
 }
 
-const TypedText: React.FC<TypedTextProps> = ({ strings, typeSpeed, showCursor}) => {
-  const a = 'hello'
+const TypedText: React.FC<TypedTextProps> = ({
+  strings,
+  typeSpeed,
+  showCursor,
+}) => {
+  const a = "hello";
   const ref = useRef(null);
 
   useEffect(() => {
     const typed = new Typed(ref.current, {
       strings: [strings],
       typeSpeed: typeSpeed,
-      showCursor: showCursor
+      showCursor: showCursor,
     });
 
     return () => {
@@ -24,10 +28,6 @@ const TypedText: React.FC<TypedTextProps> = ({ strings, typeSpeed, showCursor}) 
     };
   }, []);
 
-  return (
-    
-      <span ref={ref}></span>
-    
-  );
-}
-export default TypedText
+  return <span ref={ref}></span>;
+};
+export default TypedText;

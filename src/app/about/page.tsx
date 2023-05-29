@@ -23,13 +23,13 @@ export default function Home() {
             &#60;p&#62;
           </span>
           <p className="animate__fadeInRight text-center px-7 py-3 md:py-0 md:px-0 md:text-left animate__animated md:ml-10 font-fira text-[#B8B6B6] md:text-xl text-sm">
-            Hey there, fellow visitor! I&#39;m Aiman Aisha, a
-            Computer Science undergrad from NIT Durgapur. My focus is primarily
-            on front-end web development and UX/UI design. While I haven&#39;t
-            mastered full-stack development just yet, I&#39;m currently working
-            towards it. Oh, and I dabble in Python and Machine Learning too,
-            just for fun! I&#39;m always itching to learn new tech stuff and get
-            creative with coding. And when I&#39;m not busy with work, you&#39;ll catch
+            Hey there, fellow visitor! I&#39;m Aiman Aisha, a Computer Science
+            undergrad from NIT Durgapur. My focus is primarily on front-end web
+            development and UX/UI design. While I haven&#39;t mastered
+            full-stack development just yet, I&#39;m currently working towards
+            it. Oh, and I dabble in Python and Machine Learning too, just for
+            fun! I&#39;m always itching to learn new tech stuff and get creative
+            with coding. And when I&#39;m not busy with work, you&#39;ll catch
             me jamming to music, buried in a good book, or just casually
             procrastinating like a pro ;)
           </p>
@@ -37,14 +37,14 @@ export default function Home() {
             &#60;/p&#62;
           </span>
         </div>
-
-        
       </div>
       <div className="flex font-fira justify-center items-center md:mb-4">
-      <span className="text-[#35445A] font-caveat text-xs md:text-3xl">
+        <span className="text-[#35445A] font-caveat text-xs md:text-3xl">
           &#60;h4&#62;
         </span>
-        <p className="animate__pulse animate__infinite	infinite animate__slower animate__animated mx-5 md:mx-10 text-[#621AD7] text-base md:text-2xl"><Download/></p>
+        <p className="animate__pulse animate__infinite	infinite animate__slower animate__animated mx-5 md:mx-10 text-[#621AD7] text-base md:text-2xl">
+          <Download />
+        </p>
         <span className="text-[#35445A] font-caveat text-xs md:text-3xl">
           &#60;/h4&#62;
         </span>

@@ -16,24 +16,18 @@
     "autoprefixer": "10.4.14",
     "eslint": "8.40.0",
     "eslint-config-next": "13.4.1",
-    "framer-motion": "^10.12.12",
     "magicmouse.js": "^1.2.1",
     "next": "13.4.1",
     "postcss": "8.4.23",
     "react": "18.2.0",
-    "react-animated-cursor": "^2.6.0",
     "react-dom": "18.2.0",
     "react-use-downloader": "^1.2.4",
-    "react-vivus": "^0.0.2",
-    "scss": "^0.2.4",
     "tailwindcss": "3.3.2",
     "typed.js": "^2.0.16",
     "typescript": "5.0.4",
-    "vivus": "^0.4.6",
-    "vivus-next": "^0.4.2"
+    "vivus": "^0.4.6"
   },
   "devDependencies": {
-    "@types/vivus": "^0.4.4",
-    "sass": "^1.62.1"
+    "@types/vivus": "^0.4.4"
   }
 }

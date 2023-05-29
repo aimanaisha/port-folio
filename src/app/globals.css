@@ -3,27 +3,26 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'Audiowide';
+  font-family: "Audiowide";
   src: url("../../public/fonts/Audiowide-Regular.ttf");
 }
 @font-face {
-  font-family: 'Fira Code';
+  font-family: "Fira Code";
   src: url("../../public/fonts/FiraCode-VariableFont_wght.ttf");
 }
 
 @font-face {
-  font-family: 'Monoton';
+  font-family: "Monoton";
   src: url("../../public/fonts/Monoton-Regular.ttf");
 }
 @font-face {
-  font-family: 'Caveat';
+  font-family: "Caveat";
   src: url("../../public/fonts/Caveat-VariableFont_wght.ttf");
 }
 @font-face {
-  font-family: 'Press Start 2P';
+  font-family: "Press Start 2P";
   src: url("../../public/fonts/PressStart2P-Regular.ttf");
 }
-
 
 .bg-svg {
   position: fixed;
@@ -83,4 +82,3 @@
     transform: translate(5%, 0);
   }
 }
-

@@ -1,5 +1,5 @@
 import "../../components/Loader/Loader.css";
-export default function Loading () {
+export default function Loading() {
   return (
     <div className="center flex justify-center items-center">
       <h1 className="flex justify-center text-center items-center w-screen h-screen">
@@ -12,5 +12,4 @@ export default function Loading () {
       </div>
     </div>
   );
-};
-
+}

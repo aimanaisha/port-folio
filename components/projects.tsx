@@ -8,23 +8,33 @@ import "animate.css";
 import TypedText from "./typed";
 
 export default function Projects() {
-  const imgRef = useRef(null);
-  const listRef = useRef(null);
-  const str="//"
+  const imgRef = useRef<any>(null);
+  const listRef = useRef<any>(null);
+  const str = "//";
   useEffect(() => {
     const handleEvent = () => {
-      let navList = listRef.current.children;
+
+      // let navList = listRef.current.children
+      // let imgList = imgRef.current.children;
+
+      if(imgRef.current !== null  && listRef.current !== null){
+
+
+      let navList = listRef.current.children
       let imgList = imgRef.current.children;
-      for (let li of navList) {
-        li.addEventListener("mouseenter", () => {
-          let img = imgList[li.dataset.index];
-          img.style.opacity = 1;
-        });
-        li.addEventListener("mouseleave", () => {
-          let img = imgList[li.dataset.index];
-          img.style.opacity = 0;
-        });
+
+        for (let li of navList) {
+          li.addEventListener("mouseenter", () => {
+            let img = imgList[li.dataset.index];
+            img.style.opacity = 1;
+          });
+          li.addEventListener("mouseleave", () => {
+            let img = imgList[li.dataset.index];
+            img.style.opacity = 0;
+          });
+        }
       }
+      
     };
 
     handleEvent();
@@ -58,7 +68,6 @@ export default function Projects() {
           &#60;/img&#62;
         </span>
       </div>
-      
 
       <div className="border-2 md:border-4 bg-[#0A0E13] w-[95%] md:w-fit border-[#621AD7] flex flex-col items-center">
         <div className="flex flex-col py-4 md:py-8">
@@ -79,9 +88,11 @@ export default function Projects() {
               <div
                 data-index={item.id}
                 key={item.id}
-                className="fill border-t text-sm md:text-lg border-[#621AD7] text-[#621AD7] hover:text-[#0A0E13] flex justify-between font-fira px-2 py-6 md:py-8 md:px-5 a">
+                className="fill border-t text-sm md:text-lg border-[#621AD7] text-[#621AD7] hover:text-[#0A0E13] flex justify-between font-fira px-2 py-6 md:py-8 md:px-5 a"
+              >
                 <p className="text-[#F5F5F5]">
-                  {str}{item.no}.{" "}
+                  {str}
+                  {item.no}.{" "}
                   <TypedText
                     typeSpeed={70}
                     showCursor={false}
